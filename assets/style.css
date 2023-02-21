@@ -49,13 +49,7 @@ button{
 
 /* Creazione primo contenitore */
 .cont{
-    /* min-height: 600px;  */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
     padding: 100px 0;
-
-
 }
 
 .cont-a{
@@ -82,35 +76,18 @@ h1, h2{
 }
 
 /* Parte Centrale */
-.cont-b{
-    /* background-color: white; */
-}
-
-.cont-c{
-    /* background-color: white; */
-}
-
-.cont-d{
-    /* background-color: white; */
-}
-
 .info{
     width: 80%;
-    /* height: 400px;    andremo a togliere quando riempiremo */
-    /* background-color: #3161E0; */
     display: flex;
     margin: 0 auto;
 }
 
 .big-box{
-    flex-basis: 70%;
-    /* background-color: white; */
-    
+    flex-basis: 70%;    
 }
 
 .little-box{
     flex-basis: 30%;
-    /* background-color: white; */
 }
 
 
@@ -118,8 +95,8 @@ h1, h2{
     flex-direction: row-reverse;
 }
 
-.cont-e{
-    /* background-color: gray; */
+.cont-c, .cont-e{
+    background-color: lightgray;
 }
 
 
