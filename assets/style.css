@@ -26,7 +26,7 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px auto;
 
 }
 
@@ -72,7 +72,12 @@ h1, h2, .news p{
 }
 
 h1, h2{
-    font-size: 40px;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 /* Parte Centrale */
@@ -101,30 +106,56 @@ h1, h2{
 
 
 /* Inizio Footer */
-.cont-f{
-    background-color: lightskyblue;
+span{
+    display: inline-block;
 }
 
-.border{
-    border: 2px dashed black;
+.cont-f{
+    background-color: rgb(10, 29, 44);
 }
 
 .division-a{
     flex-basis: 30%;
 }
 
-.division-b{
-    flex-basis: 17.5%;
+.division-b, .division-c, .division-d, .division-e{
+    flex-basis: calc(70% / 3);
+    line-height: 30px;
+    margin-left: 60px;
 }
 
-.division-c{
-    flex-basis: 17.5%;
+#v-allign{
+    vertical-align: middle;
+    width: 25px;
+    height: 20px;
+
+}
+button{
+    background-color: rgb(10, 29, 44);
+    color: white;
 }
 
-.division-d{
-    flex-basis: 17.5%;
+ul{
+    list-style-type: none
 }
 
-.division-e{
-    flex-basis: 17.5%;
+li{
+    color: white;
+}
+
+.space h3, .space h4{
+    color: rgb(78, 121, 195);
+}
+
+hr{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.foot{
+    background-color: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
 }
