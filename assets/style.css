@@ -15,7 +15,7 @@
 
 
 .inline{
-    
+    align-items: center;
     display: inline-block;
     color: white;
     margin: 10px 0;
@@ -30,21 +30,44 @@
 
 }
 
-a{
+.decoration-a{
     text-decoration: none;
     color: white;
-    margin: auto 5px;
+    margin: auto 10px;
+
+    
 }
 
 p{
     line-height: 30px;
 }
 
-button{
+.button-ab{
+    background-color: white;
     color: black;
-    border: none;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 5px 10px; 
+    text-decoration: none;
+    font-size: small;
+}
+
+.button-a{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 15px 10px; 
+    text-decoration: none;
+    
+}
+
+.button-b{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 10px; 
+    text-decoration: none;
+    margin-left: 30px;
+
 }
 
 /* Creazione primo contenitore */
@@ -104,6 +127,13 @@ h3{
     background-color: lightgray;
 }
 
+.button-c{
+    background-color: rgb(78, 121, 195);
+    color: white;
+    border-radius: 25px;
+    padding: 15px 10px; 
+    text-decoration: none;
+}
 
 /* Inizio Footer */
 span{
@@ -130,10 +160,6 @@ span{
     height: 20px;
 
 }
-button{
-    background-color: rgb(10, 29, 44);
-    color: white;
-}
 
 ul{
     list-style-type: none
@@ -158,4 +184,18 @@ hr{
     display: flex;
     justify-content: space-between;
     margin: 10px auto;
+}
+
+#ita{
+    color: white;
+    margin-left: 10px;
+}
+
+.button-d{
+    background-color: rgb(78, 121, 195);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 10px; 
+    text-decoration: none;
+    font-size: small;
 }
